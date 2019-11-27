@@ -1,0 +1,27 @@
+{
+  "name": "react-native-a-map-module",
+  "version": "0.0.2",
+  "description": "react native高德地图组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaixiaoqu/react-native-a-map-module.git",
+    "baseUrl": "https://github.com/zaixiaoqu/react-native-a-map-module"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-a-map-module"
+  ],
+  "author": {
+    "name": "yusheng",
+    "email": "don@zaixiaoqu.cn"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaixiaoqu/react-native-a-map-module/issues"
+  },
+  "homepage": "https://github.com/zaixiaoqu/react-native-a-map-module.git#readme"
+}
