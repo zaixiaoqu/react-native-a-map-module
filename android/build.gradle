@@ -71,6 +71,10 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.amap.api:search:6.9.0'
+    implementation 'com.amap.api:location:4.7.2'
+    implementation 'com.amap.api:3dmap:6.9.0'
+
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
 }
