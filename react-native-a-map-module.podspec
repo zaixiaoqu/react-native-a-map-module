@@ -16,6 +16,10 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,swift}"
 
   s.dependency "React"
+  s.dependency 'AMap3DMap', "~> 6.9.0"
+  s.dependency 'AMapFoundation', "~> 1.5.9"
+  s.dependency 'AMapSearch', "~> 6.9.0"
+  s.dependency 'AMapLocation', "~> 2.6.3"
 
 end
 
