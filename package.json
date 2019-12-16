@@ -1,7 +1,7 @@
 {
   "name": "react-native-a-map-module",
-  "version": "0.0.9",
-  "description": "react native高德地图组件",
+  "version": "1.0.0",
+  "description": "react native高德地图组件, 支持定位，地图画布，关键字搜索",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
