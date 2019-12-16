@@ -18,6 +18,7 @@ import com.zaixiaoqu.amap.amap3d.maps.AMapMultiPointManager;
 import com.zaixiaoqu.amap.amap3d.maps.AMapPolygonManager;
 import com.zaixiaoqu.amap.amap3d.maps.AMapPolylineManager;
 import com.zaixiaoqu.amap.amap3d.maps.AMapViewManager;
+import com.zaixiaoqu.amap.geolocation.AMapGeolocationModule;
 import com.zaixiaoqu.amap.search.MyPoiSearch;
 
 public class AMapModulePackage implements ReactPackage {
@@ -25,7 +26,9 @@ public class AMapModulePackage implements ReactPackage {
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         return Arrays.<NativeModule>asList(
                 new AMapModuleModule(reactContext),
-                new MyPoiSearch(reactContext),
+                new AMapGeolocationModule(reactContext), // 定位
+
+                new MyPoiSearch(reactContext),  // 搜索
                 new AMapOfflineModule(reactContext)
         );
     }
