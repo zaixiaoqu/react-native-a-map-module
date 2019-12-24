@@ -77,7 +77,7 @@ dependencies {
     implementation 'com.amap.api:search:7.1.0'
     implementation 'com.amap.api:location:4.8.0'
     implementation 'com.amap.api:3dmap:7.1.0'
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$currentKotlinVersion"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$currentKotlinVersion"
 
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
